@@ -8,12 +8,14 @@ uptime
 ps
 ip
 df
-
+```
+```
 負荷状況確認を前回のログイン時と比べて大幅に変化があった場合は通知。
 top
 iostat
 netstat / ss
-
+```
+```
 ログ調査 ファイルがあれば 一気に取得してみる。
 /var/log/messages or /var/log/syslog
 /var/log/secure
