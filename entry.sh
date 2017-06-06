@@ -2,6 +2,7 @@
 
 w
 uptime
-ps
-ip
+ps auxf
+ip -a
+ip -n
 df
