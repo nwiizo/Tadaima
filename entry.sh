@@ -3,6 +3,5 @@
 w
 uptime
 ps auxf
-ip -a
-ip -n
+ip a|ip n
 df
