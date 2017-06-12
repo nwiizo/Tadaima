@@ -5,3 +5,4 @@ uptime
 ps auxf
 ip a|ip n
 df
+df -i
