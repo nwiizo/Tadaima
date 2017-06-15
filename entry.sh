@@ -3,10 +3,9 @@
 w
 uptime
 ps auxf
-ip a|ip n
+ip a;ip n
 df
 df -i
-uptime
 dmesg | tail
 vmstat 1
 mpstat -P ALL 1
