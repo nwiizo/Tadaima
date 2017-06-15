@@ -2,7 +2,7 @@
 Using Login server.
 
 ```
-確認事項を前回の結果比べて見れるようにする。
+見たい
 w
 uptime
 ps
@@ -23,6 +23,20 @@ netstat / ss
 /var/log/nginx, /var/log/httpd, /var/log/mysql
 /etc
 lsof
+```
+
+```
+Linuxパフォーマンス分析
+uptime
+dmesg | tail
+vmstat 1
+mpstat -P ALL 1
+pidstat 1
+iostat -xz 1
+free -m
+sar -n DEV 1
+sar -n TCP,ETCP 1
+top
 ```
 ### Acknowledgments
 [Linux Performance Analysis in 60,000 Milliseconds](https://medium.com/netflix-techblog/linux-performance-analysis-in-60-000-milliseconds-accc10403c55)  
