@@ -27,7 +27,6 @@ lsof
 
 ```
 Linuxパフォーマンス分析
-uptime
 dmesg | tail
 vmstat 1
 mpstat -P ALL 1
@@ -36,7 +35,6 @@ iostat -xz 1
 free -m
 sar -n DEV 1
 sar -n TCP,ETCP 1
-top
 ```
 ### Acknowledgments
 [Linux Performance Analysis in 60,000 Milliseconds](https://medium.com/netflix-techblog/linux-performance-analysis-in-60-000-milliseconds-accc10403c55)  
